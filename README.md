@@ -149,7 +149,7 @@ Fill in the details using the generated credentials in `Poridhi Labs`.
    This will create the necessary resources in AWS.
    So, our ec2 instance is ready and it is a linux server. Now, we can ssh into it using the key pair we created.
 
-   ![alt text](image.png)
+   ![alt text](./images/image.png)
 
 >**Note:** Remember the public IP address of the instance for later use.
 
@@ -159,4 +159,4 @@ Fill in the details using the generated credentials in `Poridhi Labs`.
    ssh -i MyKeyPair.pem ubuntu@<public_ip>
    ```
 
-   ![alt text](image-1.png)
+   ![alt text](./images/image-1.png)
